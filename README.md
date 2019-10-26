@@ -37,7 +37,9 @@ You should write a class com.mobiquityinc.packer.Packer with a static method nam
 accepts the absolute path to a test file as a String. It does return the solution as a String.
 Your class should throw an com.mobiquityinc.exception.APIException if incorrect parameters are being
 passed.
+
 Additional constraints:
+-----------------------
 1. Max weight that a package can take is ≤ 100
 2. There might be up to 15 items you need to choose from
 3. Max weight and cost of an item is ≤ 100
